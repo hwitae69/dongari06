@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/입장\ 빽그라운드.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 100px;
+    margin-top: 300px;
+    width: 500px;
+    max-height: 600px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.blinking-text {
+    margin-left: 200px;
+    font-size: 55px;
+    display: flex;
+    justify-content: end;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.contant{
+    display: flex;
+    animation: blink 4s infinite;
+    align-items: center;
+    justify-content: end;
+} 
+
+.body_grup{
+    display: flex;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn2{
+    width: 270px;       
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.btn_box{
+    margin: 30px;
+}

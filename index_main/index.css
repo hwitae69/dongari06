@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/입장\ 빽그라운드.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blinking-text {
+    margin-left: 200px;
+    font-size: 55px;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contant {
+    display: flex;
+    animation: blink 4s infinite;
+    align-items: center;
+}
+
+.btn_box {
+
+    margin: 100px;
+    margin-top: 700px;
+    text-decoration: none;
+}
+
+.btn_box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn1 {
+
+    width: 270px;
+    font-size: 25px;
+    border-radius: 50px;
+}
+
+.btn2 {
+
+    width: 270px;
+    font-size: 25px;
+    border-radius: 50px;
+}
